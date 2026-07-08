@@ -20,7 +20,7 @@ export default function ProductCard({ product }: ProductCardProps) {
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
-          <div className="flex h-full items-center justify-center bg-zinc-100">
+          <div className="flex h-full items-center justify-center bg-zinc-800">
             <span className="text-6xl opacity-40">📦</span>
           </div>
         )}

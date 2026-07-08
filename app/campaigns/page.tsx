@@ -54,7 +54,7 @@ export default function CampaignsPage() {
 
 
       {/* Hero Campaign */}
-      <section className="mb-12 flex min-h-[280px] flex-col justify-center bg-black p-10 text-white">
+      <section className="mb-12 flex min-h-[280px] flex-col justify-center bg-zinc-900 p-10 text-white">
 
         <span className="text-5xl">
           ⚡
@@ -72,7 +72,7 @@ export default function CampaignsPage() {
         </p>
 
 
-        <button className="mt-8 w-fit bg-white px-8 py-3 font-semibold text-black">
+        <button className="mt-8 w-fit bg-zinc-400 px-8 py-3 font-semibold text-black transition hover:bg-zinc-300">
           Alışverişe Başla
         </button>
 
@@ -97,7 +97,7 @@ export default function CampaignsPage() {
 
             <div
               key={campaign.title}
-              className="border border-zinc-800 bg-white p-8 transition hover:-translate-y-1 hover:shadow-xl"
+              className="border border-zinc-800 bg-zinc-900 p-8 transition hover:-translate-y-1 hover:shadow-xl"
             >
 
               <div className="text-5xl">
@@ -116,7 +116,7 @@ export default function CampaignsPage() {
 
 
 
-              <div className="mt-6 inline-block border border-black px-4 py-2 font-bold">
+              <div className="mt-6 inline-block border border-black bg-zinc-400 text-black px-4 py-2 font-bold hover:bg-zinc-300">
                 {campaign.discount}
               </div>
 

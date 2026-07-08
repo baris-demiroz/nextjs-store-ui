@@ -17,7 +17,7 @@ export default function CategorySection() {
         {categories.map((category) => (
           <div
             key={category}
-            className="cursor-pointer rounded-md border bg-zinc-900 bg-white p-8 text-center transition hover:-translate-y-1 hover:shadow-lg"
+            className="cursor-pointer rounded-md border border-zinc-800 bg-zinc-900 p-8 text-center transition hover:-translate-y-1 hover:shadow-lg"
           >
             <p className="text-lg font-medium">{category}</p>
           </div>
