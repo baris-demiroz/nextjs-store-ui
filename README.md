@@ -1,4 +1,4 @@
-# Shopping
+# E-Commerce
 
 Full-stack e-commerce project built with **Next.js**, **Node.js**, **Express**, and **TypeScript**.
 
